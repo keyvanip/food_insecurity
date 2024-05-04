@@ -1,0 +1,95 @@
+Area,Region,AVG_PercentFemale,AVG_PercentMale,Continent_Sum_Female,Continent_Sum_Male
+Albania,Europe,73.8,57.2,520.5,492.7
+Algeria,Africa,67.5,62.900000000000006,6061.9,5860.8
+Andorra,Europe,0.0,0.0,520.5,492.7
+Angola,Africa,139.60000000000002,127.7,6061.9,5860.8
+Austria,Europe,8.5,8.1,520.5,492.7
+Belarus,Europe,0.0,0.0,520.5,492.7
+Belgium,Europe,3.8,4.1,520.5,492.7
+Benin,Africa,97.39999999999999,92.7,6061.9,5860.8
+Bosnia and Herzegovina,Europe,13.1,14.8,520.5,492.7
+Botswana,Africa,179.9,143.6,6061.9,5860.8
+Bulgaria,Europe,18.0,16.2,520.5,492.7
+Burkina Faso,Africa,93.0,108.0,6061.9,5860.8
+Burundi,Africa,0.0,0.0,6061.9,5860.8
+Cabo Verde,Africa,38.5,38.5,6061.9,5860.8
+Cameroon,Africa,178.0,193.7,6061.9,5860.8
+Central African Republic,Africa,185.39999999999998,185.39999999999998,6061.9,5860.8
+Chad,Africa,0.0,0.0,6061.9,5860.8
+Comoros,Africa,56.8,52.8,6061.9,5860.8
+Congo,Africa,352.5,358.4,6061.9,5860.8
+Cote d'Ivoire,Africa,60.099999999999994,58.900000000000006,6061.9,5860.8
+Croatia,Europe,9.100000000000001,5.6,520.5,492.7
+Czechia,Europe,5.6,6.4,520.5,492.7
+Democratic Republic of the Congo,Africa,114.4,122.4,6061.9,5860.8
+Denmark,Europe,10.2,7.0,520.5,492.7
+Djibouti,Africa,30.8,35.2,6061.9,5860.8
+Egypt,Africa,61.8,49.8,6061.9,5860.8
+Equatorial Guinea,Africa,0.0,0.0,6061.9,5860.8
+Eritrea,Africa,0.0,0.0,6061.9,5860.8
+Estonia,Europe,5.8,6.2,520.5,492.7
+Eswatini,Africa,34.8,38.4,6061.9,5860.8
+Ethiopia,Africa,116.8,114.7,6061.9,5860.8
+Finland,Europe,17.3,13.8,520.5,492.7
+France,Europe,4.800000000000001,9.1,520.5,492.7
+Gabon,Africa,0.0,0.0,6061.9,5860.8
+Gambia,Africa,147.3,155.6,6061.9,5860.8
+Germany,Europe,5.8,7.0,520.5,492.7
+Ghana,Africa,42.6,41.6,6061.9,5860.8
+Greece,Europe,16.3,15.8,520.5,492.7
+Guinea,Africa,339.9,337.8,6061.9,5860.8
+Guinea-Bissau,Africa,103.2,103.3,6061.9,5860.8
+Hungary,Europe,11.9,9.7,520.5,492.7
+Iceland,Europe,10.0,11.4,520.5,492.7
+Ireland,Europe,17.7,27.299999999999997,520.5,492.7
+Italy,Europe,5.8,13.1,520.5,492.7
+Kenya,Africa,170.1,143.8,6061.9,5860.8
+Latvia,Europe,4.4,4.8,520.5,492.7
+Lesotho,Africa,118.2,121.3,6061.9,5860.8
+Liberia,Africa,237.4,217.3,6061.9,5860.8
+Libya,Africa,142.7,87.7,6061.9,5860.8
+Lithuania,Europe,12.4,13.2,520.5,492.7
+Luxembourg,Europe,6.7,7.5,520.5,492.7
+Madagascar,Africa,46.3,37.5,6061.9,5860.8
+Malawi,Africa,362.5,331.6,6061.9,5860.8
+Mali,Africa,0.0,0.0,6061.9,5860.8
+Malta,Europe,11.4,6.0,520.5,492.7
+Mauritania,Africa,44.1,44.8,6061.9,5860.8
+Mauritius,Africa,60.3,43.8,6061.9,5860.8
+Montenegro,Europe,18.6,18.0,520.5,492.7
+Morocco,Africa,0.0,0.0,6061.9,5860.8
+Mozambique,Africa,210.3,193.3,6061.9,5860.8
+Namibia,Africa,225.0,210.9,6061.9,5860.8
+Netherlands (Kingdom of the),Europe,11.3,9.9,520.5,492.7
+Niger,Africa,71.1,66.9,6061.9,5860.8
+Nigeria,Africa,107.3,113.4,6061.9,5860.8
+North Macedonia,Europe,32.0,29.5,520.5,492.7
+Norway,Europe,7.1,8.5,520.5,492.7
+Poland,Europe,6.2,6.1,520.5,492.7
+Portugal,Europe,24.4,23.7,520.5,492.7
+Republic of Moldova,Europe,26.2,23.6,520.5,492.7
+Romania,Europe,33.9,27.3,520.5,492.7
+Russian Federation,Europe,2.1,2.4,520.5,492.7
+Rwanda,Africa,0.0,0.0,6061.9,5860.8
+Sao Tome and Principe,Africa,28.8,27.6,6061.9,5860.8
+Senegal,Africa,58.4,66.9,6061.9,5860.8
+Serbia,Europe,19.299999999999997,17.6,520.5,492.7
+Seychelles,Africa,12.9,12.9,6061.9,5860.8
+Sierra Leone,Africa,223.0,215.4,6061.9,5860.8
+Slovakia,Europe,9.3,7.1,520.5,492.7
+Slovenia,Europe,4.9,2.2,520.5,492.7
+Somalia,Africa,85.1,85.1,6061.9,5860.8
+South Africa,Africa,34.8,27.9,6061.9,5860.8
+South Sudan,Africa,317.6,317.6,6061.9,5860.8
+Spain,Europe,12.0,10.4,520.5,492.7
+Sudan,Africa,112.0,112.0,6061.9,5860.8
+Sweden,Europe,6.9,8.9,520.5,492.7
+Switzerland,Europe,3.7,6.9,520.5,492.7
+Togo,Africa,108.69999999999999,132.5,6061.9,5860.8
+Tunisia,Africa,74.4,72.2,6061.9,5860.8
+Uganda,Africa,160.3,174.7,6061.9,5860.8
+Ukraine,Europe,18.6,16.9,520.5,492.7
+United Kingdom of Great Britain and Northern Ireland,Europe,11.6,9.4,520.5,492.7
+United Republic of Tanzania,Africa,177.6,167.6,6061.9,5860.8
+Zambia,Africa,189.1,189.6,6061.9,5860.8
+Zimbabwe,Africa,243.6,225.1,6061.9,5860.8

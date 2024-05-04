@@ -1,0 +1,69 @@
+---
+title: Food Supply Datasets
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(DT)
+```
+
+Below are the data tables used to create the visualizations in our article. The data below came from the [Food and Agriculture Organization of the United Nations](https://www.fao.org/home/en), and was seperated out, recombined, and cleaned by us, the data team. The specific dataset used was the [Suite of Food Security Indicators](https://www.fao.org/faostat/en/#data/FS), primarily the African and European continental regions (although some visualizations were created from global data in the early sections). Although not used in our analysis, a column was added concerning primary colonizing power, and African nations with a colonial history were thusly linked to their colonial power; the decisions used in determining colonial relationships can be found in the final data table.
+
+## {.tabset}
+
+### GDP
+
+```{r gdp-table, echo=FALSE, warning=FALSE}
+gdp <- read.csv("../data/CleanedData/gdp.csv", fileEncoding = "UTF-8")
+datatable(gdp[,-1], options = list(searchHighlight = TRUE, pageLength = 5))
+```
+
+### Dietary Adequacy
+
+```{r energy-table, echo=FALSE, warning=FALSE}
+energy <- read.csv("../data/CleanedData/energyadequacy.csv", fileEncoding = "UTF-8")
+datatable(energy[,-1], options = list(searchHighlight = TRUE, pageLength = 5))
+```
+
+### Food Stability by Gender
+
+```{r gender-table, echo=FALSE, warning=FALSE}
+gender <- read.csv("../data/CleanedData/foodinsecuritybygender_cleaned.csv", fileEncoding = "UTF-8")
+datatable(gender[,-1], options = list(searchHighlight = TRUE, pageLength = 5))
+```
+
+### Obesity
+
+```{r obesity-table, echo=FALSE, warning=FALSE}
+obesity <- read.csv("../data/CleanedData/obesityadults.csv", fileEncoding = "UTF-8")
+datatable(obesity[,-1], options = list(searchHighlight = TRUE, pageLength = 5))
+```
+
+### Malnutrition
+
+```{r malnour-table, echo=FALSE, warning=FALSE}
+malnour <- read.csv("../data/CleanedData/undernourishment.csv", fileEncoding = "UTF-8")
+datatable(malnour[,-1], options = list(searchHighlight = TRUE, pageLength = 5))
+```
+
+### Political Stability
+
+```{r politics-table, echo=FALSE, warning=FALSE}
+politics <- read.csv("../data/CleanedData/politicalstability.csv", fileEncoding = "UTF-8")
+datatable(politics[,-1], options = list(searchHighlight = TRUE, pageLength = 5))
+```
+
+### Protein Supply
+
+```{r protein-table, echo=FALSE, warning=FALSE}
+protein <- read.csv("../data/CleanedData/proteinsupply.csv", fileEncoding = "UTF-8")
+datatable(protein[,-1], options = list(searchHighlight = TRUE, pageLength = 5))
+```
+
+### Colonial Relationship
+
+```{r colonial-table, echo=FALSE, warning=FALSE}
+colonial <- read.csv("../data/colonydata.csv", fileEncoding = "UTF-8")
+datatable(colonial, options = list(searchHighlight = TRUE, pageLength = 5))
+```

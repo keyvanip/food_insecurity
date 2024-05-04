@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Project Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: The Article
+      - href: Datatable.Rmd
+        text: The Data
+      - href: "https://github.com/hannah-hana-kim/DSAN-5200-Project/Irene"
+        text: The Code
+        
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+    embed-resources: true
+    code-fold: true
+
+editor: source
+

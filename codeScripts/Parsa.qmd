@@ -1,0 +1,62 @@
+---
+title: "DSAN_5200_Final_Project"
+format: html
+editor: visual
+author: Parsa Keyvani
+---
+
+```{r setup, include=FALSE}
+install.packages("pacman")
+pacman::p_load(ggplot2, tidyr, dplyr, tidyverse,readr, plotly, stringr, renv,StatsBombR, ggsoccer,countrycode)
+```
+
+```{r, message=FALSE, warning=FALSE}
+food_data <-read_csv("FoodSupply&Security_2-7-2024.csv")
+```
+
+
+Average dietary energy requirement (kcal/cap/day)
+
+```{r, message=FALSE, warning=FALSE}
+# preparing the data for plotting
+
+global_cal <- food_data %>%
+  filter(str_detect(Item, "Average dietary energy supply adequacy")) %>%
+  select(Area, Item, Unit, Value, Year) %>%
+  select(-c(Item,Unit)) %>%
+  mutate(Year = as.numeric(sub("-.*", "", Year))) %>%
+  rename(Energy = Value)
+  
+
+global_gdp <- food_data %>%
+  filter(str_detect(Item, "Gross domestic product per capita")) %>%
+  select(Year, Value, Area) %>%
+  mutate(Year=as.numeric(Year),
+         Value = as.numeric(Value)) %>%
+  rename(GDP = Value)
+  
+  
+calorie_gdp <-left_join(global_cal,global_gdp, by= c("Year", "Area"))
+
+sum(is.na(calorie_gdp$GDP)) 
+
+
+calorie_gdp<- calorie_gdp %>%
+  drop_na() %>%
+  mutate(Energy = as.numeric(Energy),
+         Color = ifelse(Energy>=100, "Sufficient", "Insufficient"),
+         size = ifelse(Energy >= 100, (Energy - 100) * 2, (100 - Energy) * 2))
+  
+calorie_gdp$Area <- as.character(calorie_gdp$Area)
+calorie_gdp$Continent <- countrycode(calorie_gdp$Area, "country.name", "continent")
+
+
+```
+
+::: {.flourish-embed .flourish-scatter data-src="visualisation/17752409"}
+```{=html}
+<script src="https://public.flourish.studio/resources/embed.js"</script>
+```
+:::
+
+
